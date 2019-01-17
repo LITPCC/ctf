@@ -1,3 +1,10 @@
 .text-blue{
     color: #3689f4;
 }
+.workshop-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
