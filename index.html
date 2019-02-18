@@ -155,15 +155,6 @@ body {font-size:16px;}
                 captionText.innerHTML = element.alt;
                 
             }
-
-			// Add person to mailing list
-			function addToMailingList(){
-				name  = document.getElementById('name').value
-				email = document.getElementById('message').value
-				url = "https://script.google.com/macros/s/AKfycbyANQv11c3Uap3MYcmE10kDqLrj8qpmT2ZesGOr3O3fjFRIL968/exec?name=" + name + "&email=" + email;
-				console.log(url);
-				fetch(url, {method: 'post', mode:'cors'})
-			}
         </script>
 
     </body>
