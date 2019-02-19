@@ -21,12 +21,13 @@ body {font-size:16px;}
             <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
                 style="width:100%;font-size:22px">Close Menu</a>
             <div class="w3-container">
-                <h3><b>Capture<br>The Flag</b></h3>
+				<h3><b>LIT<br>Cyber</b></h3>
             </div>
             <div class="w3-bar-block">
                 <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
                 <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Workshops</a>
                 <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">CTF</a>
+                <a href="#mailing" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Mailing List</a>
                 <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
             </div>
         </nav>
@@ -35,7 +36,7 @@ body {font-size:16px;}
         <header style="background-color: black; color: white;" class="w3-container w3-top w3-hide-large w3-xlarge w3-padding">
             <a href="javascript:void(0)" class="w3-button w3-margin-right"
                 onclick="w3_open()">&#9776;</a>
-            <span>LIT</span>
+            <span>LIT Cyber</span>
         </header>
 
         <!-- Overlay effect when opening sidebar on small screens -->
@@ -47,7 +48,7 @@ body {font-size:16px;}
 
             <!-- Header -->
             <div class="w3-container" style="margin-top:80px" id="showcase">
-                <h1 class="w3-jumbo"><b>LIT</b></h1>
+                <h1 class="w3-jumbo"><b>LIT Cybersecurity</b></h1>
                 <div>
                         Leadership in Technology is a student-run club at Pasadena City College. It aims to empower students considering technology careers with leadership skills while contributing educational resources to the surrounding community.
                 </div>
@@ -82,6 +83,7 @@ body {font-size:16px;}
                         </div>
                     </div>                
                 </a>
+				More coming soon!
             </div>
 
 
@@ -105,11 +107,19 @@ body {font-size:16px;}
                 <img src="https://images.unsplash.com/photo-1534488972407-5a4aa1e47d83?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" class="single-image"/>
             </div>
 
+            <!-- Mailing List -->
+            <div class="w3-container" id="mailing" style="margin-top:75px">
+                <h1 class="w3-xxxlarge text-blue"><b>Mailing List.</b></h1>
+                <hr style="width:50px;border:5px solid #3689f4" class="w3-round">
+                <p>Want to take part? Sign ups will get notified when we add workshops and other events to our website!</p>
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-_Ee8p2CiUa_CRUKpc4prZpuKTnovNeeub0SvS5DiEHEWeQ/viewform?embedded=true" width="640" height="632" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+
             <!-- Contact -->
             <div class="w3-container" id="contact" style="margin-top:75px">
-                <h1 class="w3-xxxlarge text-blue"><b>Contact.</b></h1>
+                <h1 class="w3-xxxlarge text-blue"><b>Mailing List.</b></h1>
                 <hr style="width:50px;border:5px solid #3689f4" class="w3-round">
-                <p>Have any questions? Want to take part? </p>
+                <p>Questions or comments? Email us at PCCLITCTF@gmail.com</p>
                 <form>
                     <div class="w3-section">
                         <label>Name</label>
@@ -121,7 +131,7 @@ body {font-size:16px;}
                         <input id="message" class="w3-input w3-border" type="text" name="Message"
                             required>
                     </div>
-                    <button onclick="window.open(`mailto:kody@hackerinterchange.com/?subject=${document.getElementById('message').value}&body=${document.getElementById('name').value}`);" type="submit" style="background-color: #3689f4" class="w3-button w3-block w3-padding-large w3-margin-bottom">Send
+                    <button onclick="window.open(`mailto:PCCLITCTF@gmail.com/?subject=${document.getElementById('message').value}&body=${document.getElementById('name').value}`);" type="submit" style="background-color: #3689f4" class="w3-button w3-block w3-padding-large w3-margin-bottom">Send
                         Message</button>
                 </form>
             </div>
